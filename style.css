@@ -1,0 +1,60 @@
+body {
+	background-color: #141414;
+}
+
+header {
+	color: white;
+}
+
+
+p {
+	color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #f8e71c;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f8e71c;
+}
+
+
+.mid {
+	color: #f8e71c;
+}
+
+.home {
+	vertical-align: center;
+}
+
+.piccolo {
+	font-size: 6pt;
+}
+
+@keyframes paolino {
+	0%{margin: 10000};
+	25%{margin: 5000};
+	50%{margin: 2500};
+	75%{margin: 1250};
+	100%{margin: 0};
+	
+}
+.animazione1 {
+	animation: paolino 1s;
+}
